@@ -79,6 +79,7 @@ public class SmsFrame extends javax.swing.JFrame {
 
         receiverTextArea.setColumns(20);
         receiverTextArea.setRows(5);
+        receiverTextArea.setPreferredSize(new java.awt.Dimension(164, 20));
         receiverScrollPane.setViewportView(receiverTextArea);
 
         gridBagConstraints = new java.awt.GridBagConstraints();

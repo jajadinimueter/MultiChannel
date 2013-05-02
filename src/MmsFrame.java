@@ -83,7 +83,8 @@ public class MmsFrame extends javax.swing.JFrame {
         messagePanel1.add(textTextAreaScrollPane, gridBagConstraints);
 
         receiverTextArea.setColumns(20);
-        receiverTextArea.setRows(5);
+        receiverTextArea.setRows(1);
+        receiverTextArea.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         receiverScrollPane.setViewportView(receiverTextArea);
 
         gridBagConstraints = new java.awt.GridBagConstraints();
